@@ -1,0 +1,13 @@
+<form autocomplete="off" (ngSubmit)="createUser();">
+  <h3>Make an account to gain full access!</h3>
+  <div>
+    <label>Email</label>
+    <input type="email" name="email" [(ngModel)]="userData.email">
+  </div>
+  <div>
+    <label>password</label>
+    <input type="password" name="password" [(ngModel)]="userData.password">
+  </div>
+  <input type="submit" value="Register">
+</form>
+te

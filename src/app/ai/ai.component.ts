@@ -1,11 +1,16 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
+  selector: 'app-ai',
+  templateUrl: './ai.component.html',
+  styleUrls: ['./ai.component.scss']
 })
-export class AppComponent implements OnInit {
+export class AiComponent implements OnInit {
+
+  constructor() { }
+
+  ngOnInit(): void { }
+
   title = 'Artificial Intelligence';
   object = {
     headline: "What is Artificial Intelligence?",
@@ -18,10 +23,5 @@ export class AppComponent implements OnInit {
     "Machine translation",
     "Speech recognition"
   ];
-  private static callMe(): void {
-    console.log("I am called!");
-  }
-  ngOnInit() {
-    AppComponent.callMe();
-  }
+
 }

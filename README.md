@@ -1,27 +1,50 @@
-# ComputerScience
+# What is Computer Science
+
+An educational website about computer science topics, built with Angular.
+
+## About The Project
+
+A website presenting computer science topics, organized into sections: algorithms, artificial intelligence, compression, cryptography, the Internet, and programming. It includes a custom pipe, directive, and service, with SCSS styles.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.6.
 
-## Development server
+### Built With
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- Angular 13
+- TypeScript
+- SCSS
 
-## Code scaffolding
+## Getting Started
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### Prerequisites
 
-## Build
+- Node.js
+- pnpm (a pnpm lockfile is included) or npm
+- Angular CLI
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+### Development server
 
-## Running unit tests
+```sh
+pnpm install
+pnpm start
+```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Navigate to [http://localhost:4200/](http://localhost:4200/). The application will automatically reload if you change any of the source files.
 
-## Running end-to-end tests
+### Build
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+```sh
+pnpm build
+```
 
-## Further help
+The build artifacts are stored in the `dist/` directory.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+### Running unit tests
+
+```sh
+pnpm test
+```
+
+## License
+
+No license file is present in this repository.

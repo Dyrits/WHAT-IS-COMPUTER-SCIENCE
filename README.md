@@ -8,6 +8,10 @@ A website presenting computer science topics, organized into sections: algorithm
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.6.
 
+### Course
+
+Udemy - The Complete Web Developer Master Course (per the repository's original description).
+
 ### Built With
 
 - Angular 13

@@ -18,6 +18,10 @@ Udemy - The Complete Web Developer Master Course (per the repository's original 
 - TypeScript
 - SCSS
 
+## Maintenance Status
+
+This course project is retained as a reference and is not actively maintained. Dependency security alerts remain unresolved; it should not be treated as security-clean or deployed without a fresh review.
+
 ## Getting Started
 
 ### Prerequisites
